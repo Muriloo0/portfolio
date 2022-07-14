@@ -1,0 +1,433 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+
+body {
+    background-color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navigation {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #2b2b2b;
+    color: white;
+    height: 50px;
+
+
+    animation-name: navegação;
+    animation-duration: 6s;
+}
+
+
+.navigation ul {
+    margin-top: 0px;
+    list-style: none;
+    padding-left: 0px;
+    text-align: right;
+    height: 50px;
+}
+
+
+.navigation li {
+
+    display: inline-block;
+    line-height:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+    
+}
+
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #f27609;
+}
+
+
+.navigation li.treeline-icon {
+    display: none;
+}
+
+.navigation li.treeline-icon:hover {
+    color: #f27609;
+    cursor: pointer;
+}
+
+
+
+.capa {
+    color: white;
+}
+
+
+.capa span {
+    color:#f27609;
+    display: block;
+}
+
+
+.capa div {
+    display: inline-block;
+    height: 650px;
+}
+
+
+.profile-pic {
+    height: 60%;
+    text-align: center;
+
+    animation-name: profile-capa;
+    animation-duration: 2s;
+}
+
+
+.profile-pic img {
+    width: 350px;
+    border-radius: 350px;
+    margin-top: 100px;
+}
+
+
+.profile-title {
+    color: white;
+    vertical-align: top;
+    height: 59%;
+    font-weight: 400;
+
+    animation-name: profile-capa;
+    animation-duration: 6s;
+    
+}
+
+.profile-title h1 {
+    text-transform: uppercase;
+    font-size: 52px;
+    margin-top: 230px;
+    font-weight: 400px;
+    margin-left: 50px;
+    line-height: 54px;
+
+}
+
+
+.profile-title h2 {
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: 100px;
+    margin-top: -26px;
+    
+}
+
+.btn-download {
+    width: 15rem;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    margin:-10rem 3rem;
+    margin: 0 auto;
+    
+    
+}
+
+.btn-download:hover {
+    background-color: #f27609;
+    
+
+}
+
+
+.btn-download button{
+    width: auto;
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #f27609;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    cursor: pointer;
+    background-color: #2b2b2b;
+}
+
+button a {
+    text-decoration: none;
+    color: #f27609;
+}
+
+button a:hover {
+    color: white;
+}
+
+
+
+.main {
+    padding-top: 80px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+
+
+    animation-name: conteudo;
+    animation-duration: 2s;
+}
+
+.cv-pic {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.main h1 {
+    color: white;
+    font-weight: normal;
+
+}
+
+
+.main h2 {
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+
+.main h3 {
+    color: #f27609;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.main p {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.caminho  {
+    list-style: none;
+    padding-left: 0;
+    color: gray;
+
+}
+
+
+.caminho a {
+    color: grey;
+}
+
+.caminho li {
+    display: inline-block;
+}
+
+.social-img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.miniatura {
+    width: 320px;
+    height: 320px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    
+}
+
+.miniatura a {
+    text-decoration: none;
+}
+
+
+.blackbox {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    padding-top: 120px;
+}
+
+
+.blackbox:hover {
+    opacity: 0.9;
+
+}
+
+.blackbox-text {
+    text-align: center;
+}
+
+.blackbox-text h1 {
+    font-size: 16px;
+    color: #f27609;
+    text-transform: uppercase;
+    margin-top: 0;
+
+}
+
+
+.blackbox-text h2 {
+    text-transform: none;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.foto-trabalho {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.back-link {
+    color: #f27709;
+}
+
+
+
+
+@keyframes profile-capa {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+@keyframes navegação {
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes conteudo {
+    0% {opacity: 0; transform: translate(-20px,0px);}
+    50% {opacity: 0; transform: translate();}
+    100% {opacity: 1;}
+}
+
+
+@media (max-width: 1000px) {
+
+    .navigation  li{
+        display: none;
+    }
+
+    .navigation li.treeline-icon {
+        display: inline-block;
+    }
+
+
+    .capa div {
+        display: block;
+        height: auto;
+    }
+
+    .profile-pic {
+        width: 100%;
+        
+    }
+
+    .profile-pic img {
+        max-width: 75%;
+        margin-top: 0;
+        max-width: 80%;
+    }
+
+    .profile-title {
+        text-align: center;
+        width: 100%;
+    }
+
+    .profile-title h1 {
+        margin-top: 30px;
+        font-size: 36px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .profile-title h2 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+
+    .main {
+        padding-top: 10px;
+        padding-right: 5%;
+        padding-bottom: 40px;
+        padding-left: 5%;
+    
+    }
+
+    .main p {
+        text-align: left;
+        line-height: 30px;
+    }
+
+    .caminho li {
+        font-size: 14px;
+    }
+
+    .cv-pic {
+        float: none;
+        max-width: 100%;
+    
+    }
+
+
+    .miniatura {
+        max-width: 100%;
+        background-size: auto 100%;
+    }
+
+    .blackbox {
+        opacity: 0.8;
+    }
+
+
+    .menujs {
+        height: auto;
+    
+    }
+
+
+    .menujs ul {
+        height: auto;
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    .menujs li {
+        display: block;
+        border-bottom: solid grey 1px;
+    }
+
+    .btn-download {
+        margin: 0 auto;
+    }
+
+}
